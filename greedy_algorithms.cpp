@@ -3,7 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-// Fractional Knapsack
 struct Item {
     int value, weight;
 };
@@ -30,7 +29,6 @@ void knapsack() {
     cout<<"Knapsack: "<<total<<endl;
 }
 
-// Activity Selection
 void activity() {
     int start[]={1,3,0,5,8};
     int finish[]={2,4,6,7,9};
